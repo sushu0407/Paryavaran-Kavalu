@@ -1,0 +1,26 @@
+package com.paryavaran.kavalu.di
+
+import android.content.Context
+import androidx.room.Room
+import com.paryavaran.kavalu.data.database.AppDatabase
+import dagger.Module
+import dagger.Provides
+import dagger.hilt.InstallIn
+import dagger.hilt.android.qualifiers.ApplicationContext
+import dagger.hilt.components.SingletonComponent
+import javax.inject.Singleton
+
+@Module
+@InstallIn(SingletonComponent::class)
+object DatabaseModule {
+    @Provides
+    @Singleton
+    fun provideDatabase(@ApplicationContext context: Context): AppDatabase =
+        Room.databaseBuilder(context, AppDatabase::class.java, "paryavaran_database")
+            .fallbackToDestructiveMigration()
+            .build()
+
+    @Provides fun provideReportDao(database: AppDatabase) = database.reportDao()
+    @Provides fun provideUserDao(database: AppDatabase) = database.userDao()
+    @Provides fun provideAchievementDao(database: AppDatabase) = database.achievementDao()
+}

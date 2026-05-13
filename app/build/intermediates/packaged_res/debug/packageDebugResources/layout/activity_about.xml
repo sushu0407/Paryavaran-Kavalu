@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_light"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:background="@color/primary_green" app:navigationIcon="?attr/homeAsUpIndicator" app:title="About Paryavaran-Kavalu" app:titleTextColor="@color/white" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="18dp" android:text="Mission\nEmpowering citizens to create a cleaner, healthier India through technology and community participation.\n\nImpact Goals\n• Swachh Bharat 2.0\n• Environmental Stewardship\n• Public Health\n\nHow It Works\n1. Spot waste blackspot\n2. Report with photo and location\n3. Volunteers cleanup\n4. Earn Eco-Karma points\n\nFeatures\n✓ GPS geo-tagging\n✓ Photo documentation\n✓ Community map\n✓ Gamification system\n\nContact\nsupport@paryavaran.com\nwww.paryavaran-kavalu.in\n\nVersion 1.0.0\n© 2024 MindMatrix VTU Internship" android:textColor="@color/gray_dark" android:textSize="16sp" />
+    </ScrollView>
+</LinearLayout>

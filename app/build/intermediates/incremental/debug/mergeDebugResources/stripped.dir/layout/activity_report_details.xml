@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_light"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:background="@color/primary_green" app:navigationIcon="?attr/homeAsUpIndicator" app:title="Report Details" app:titleTextColor="@color/white" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+            <ImageView android:id="@+id/ivPhoto" android:layout_width="match_parent" android:layout_height="220dp" android:background="@drawable/photo_placeholder" android:contentDescription="Waste photo" android:scaleType="centerCrop" />
+            <TextView android:id="@+id/tvStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:textColor="@color/black" android:textSize="18sp" android:textStyle="bold" />
+            <TextView android:id="@+id/tvDetails" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:background="@drawable/card_bg" android:padding="16dp" android:textColor="@color/gray_dark" />
+            <TextView android:id="@+id/tvDescription" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textColor="@color/gray_dark" android:textSize="15sp" />
+            <Button android:id="@+id/btnViewOnMap" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="View on Map" />
+            <Button android:id="@+id/btnMarkCleaned" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Mark as Cleaned" />
+            <Button android:id="@+id/btnShare" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Share Location" />
+            <Button android:id="@+id/btnDelete" style="@style/Widget.Material3.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Delete Report" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

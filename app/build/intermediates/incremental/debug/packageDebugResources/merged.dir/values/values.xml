@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#111827</color>
+    <color name="deep_ink">#10201B</color>
+    <color name="eco_karma_gold">#F9A825</color>
+    <color name="gray_dark">#374151</color>
+    <color name="gray_light">#F4F7F5</color>
+    <color name="gray_medium">#6B7280</color>
+    <color name="mint_card">#D9FBE8</color>
+    <color name="primary_green">#00A676</color>
+    <color name="primary_green_dark">#006B4F</color>
+    <color name="primary_green_light">#6EE7B7</color>
+    <color name="secondary_blue">#0EA5E9</color>
+    <color name="secondary_blue_light">#7DD3FC</color>
+    <color name="sky_card">#E0F2FE</color>
+    <color name="status_cleaned">#2E7D32</color>
+    <color name="status_pending">#D32F2F</color>
+    <color name="sun_card">#FEF3C7</color>
+    <color name="surface_soft">#F0FDF8</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="space_12">12dp</dimen>
+    <dimen name="space_16">16dp</dimen>
+    <dimen name="space_24">24dp</dimen>
+    <dimen name="space_8">8dp</dimen>
+    <string name="app_name">Paryavaran-Kavalu</string>
+    <string name="map_summary">Showing %1$d reports. Red = %2$d pending, Green = %3$d cleaned. Tap a pin for details.</string>
+    <string name="maps_api_key">YOUR_MAPS_API_KEY</string>
+    <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorPrimaryDark">@color/primary_green_dark</item>
+        <item name="colorSecondary">@color/secondary_blue</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/primary_green_dark</item>
+    </style>
+</resources>

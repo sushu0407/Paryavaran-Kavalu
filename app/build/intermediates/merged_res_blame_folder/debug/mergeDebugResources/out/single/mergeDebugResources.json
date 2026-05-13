@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/drawable_bg_gradient.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/drawable/bg_gradient.xml"
+    },
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/drawable_bg_soft_card.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/drawable/bg_soft_card.xml"
+    },
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/drawable_ic_launcher.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/drawable_photo_placeholder.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/drawable/photo_placeholder.xml"
+    },
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/layout_activity_profile.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/layout_activity_new_report.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/layout/activity_new_report.xml"
+    },
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/layout_activity_splash.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/xml_file_paths.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/layout_activity_home.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/layout_activity_settings.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/drawable_bg_action_secondary.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/drawable/bg_action_secondary.xml"
+    },
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/drawable_bg_dashboard.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/drawable/bg_dashboard.xml"
+    },
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/layout_activity_report_details.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/layout/activity_report_details.xml"
+    },
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/drawable_bg_hero.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/drawable/bg_hero.xml"
+    },
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/drawable_bg_action_primary.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/drawable/bg_action_primary.xml"
+    },
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/layout_activity_map_view.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/layout/activity_map_view.xml"
+    },
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/drawable_bg_avatar.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/drawable/bg_avatar.xml"
+    },
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/drawable_card_bg.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/drawable/card_bg.xml"
+    },
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/layout_activity_my_reports.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/layout/activity_my_reports.xml"
+    },
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/layout_item_report.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/layout/item_report.xml"
+    },
+    {
+        "merged": "com.paryavaran.kavalu.app-debug-52:/layout_activity_about.xml.flat",
+        "source": "com.paryavaran.kavalu.app-main-54:/layout/activity_about.xml"
+    }
+]

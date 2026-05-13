@@ -1,0 +1,304 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.paryavaran.kavalu"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:6:5-81
+13-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:7:5-65
+14-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:7:22-62
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+15-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:8:5-77
+15-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:8:22-74
+16    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+16-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:9:5-76
+16-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:9:22-73
+17    <uses-permission
+17-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:10:5-12:38
+18        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+18-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:11:9-65
+19        android:maxSdkVersion="28" />
+19-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:12:9-35
+20
+21    <uses-feature
+21-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:14:5-16:36
+22        android:name="android.hardware.camera"
+22-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:15:9-47
+23        android:required="false" />
+23-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:16:9-33
+24    <uses-feature
+24-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:17:5-19:36
+25        android:name="android.hardware.location.gps"
+25-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:18:9-53
+26        android:required="false" />
+26-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:19:9-33
+27    <!-- Include required permissions for Google Maps API to run. -->
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+28-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\f61705d95bea913e2a19839348bb1309\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+28-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\f61705d95bea913e2a19839348bb1309\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:22-76
+29
+30    <uses-feature
+30-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\f61705d95bea913e2a19839348bb1309\transformed\play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+31        android:glEsVersion="0x00020000"
+31-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\f61705d95bea913e2a19839348bb1309\transformed\play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+32        android:required="true" />
+32-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\f61705d95bea913e2a19839348bb1309\transformed\play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+33
+34    <queries>
+34-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\f61705d95bea913e2a19839348bb1309\transformed\play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+35
+36        <!-- Needs to be explicitly declared on Android R+ -->
+37        <package android:name="com.google.android.apps.maps" />
+37-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\f61705d95bea913e2a19839348bb1309\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+37-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\f61705d95bea913e2a19839348bb1309\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+38    </queries>
+39
+40    <permission
+40-->[androidx.core:core:1.13.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\0bffeaa78f4973d85bbb02f6d8a73089\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+41        android:name="com.paryavaran.kavalu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+41-->[androidx.core:core:1.13.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\0bffeaa78f4973d85bbb02f6d8a73089\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+42        android:protectionLevel="signature" />
+42-->[androidx.core:core:1.13.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\0bffeaa78f4973d85bbb02f6d8a73089\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+43
+44    <uses-permission android:name="com.paryavaran.kavalu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+44-->[androidx.core:core:1.13.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\0bffeaa78f4973d85bbb02f6d8a73089\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+44-->[androidx.core:core:1.13.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\0bffeaa78f4973d85bbb02f6d8a73089\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+45
+46    <application
+46-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:21:5-62:19
+47        android:name="com.paryavaran.kavalu.ParyavaranApp"
+47-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:22:9-38
+48        android:allowBackup="true"
+48-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:23:9-35
+49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+49-->[androidx.core:core:1.13.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\0bffeaa78f4973d85bbb02f6d8a73089\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+50        android:debuggable="true"
+51        android:extractNativeLibs="false"
+52        android:icon="@drawable/ic_launcher"
+52-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:24:9-45
+53        android:label="@string/app_name"
+53-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:25:9-41
+54        android:roundIcon="@drawable/ic_launcher"
+54-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:26:9-50
+55        android:supportsRtl="true"
+55-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:27:9-35
+56        android:theme="@style/AppTheme" >
+56-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:28:9-40
+57        <meta-data
+58            android:name="com.google.android.geo.API_KEY"
+58-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:31:13-58
+59            android:value="AIzaSyAYFknEzPDrqMCgcUJgxU6vqbGmeHI2OME" />
+59-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:32:13-44
+60
+61        <activity
+61-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:34:9-42:20
+62            android:name="com.paryavaran.kavalu.ui.splash.SplashActivity"
+62-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:35:13-53
+63            android:exported="true"
+63-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:36:13-36
+64            android:screenOrientation="portrait" >
+64-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:37:13-49
+65            <intent-filter>
+65-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:38:13-41:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:39:17-69
+66-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:39:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:40:17-77
+68-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:40:27-74
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:44:9-95
+72            android:name="com.paryavaran.kavalu.ui.home.HomeActivity"
+72-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:44:19-55
+73            android:screenOrientation="portrait" />
+73-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:44:56-92
+74        <activity
+74-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:45:9-148
+75            android:name="com.paryavaran.kavalu.ui.newreport.NewReportActivity"
+75-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:45:19-65
+76            android:screenOrientation="portrait"
+76-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:45:66-102
+77            android:windowSoftInputMode="adjustResize" />
+77-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:45:103-145
+78        <activity
+78-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:46:9-101
+79            android:name="com.paryavaran.kavalu.ui.mapview.MapViewActivity"
+79-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:46:19-61
+80            android:screenOrientation="portrait" />
+80-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:46:62-98
+81        <activity
+81-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:47:9-113
+82            android:name="com.paryavaran.kavalu.ui.reportdetails.ReportDetailsActivity"
+82-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:47:19-73
+83            android:screenOrientation="portrait" />
+83-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:47:74-110
+84        <activity
+84-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:48:9-105
+85            android:name="com.paryavaran.kavalu.ui.myreports.MyReportsActivity"
+85-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:48:19-65
+86            android:screenOrientation="portrait" />
+86-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:48:66-102
+87        <activity
+87-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:49:9-101
+88            android:name="com.paryavaran.kavalu.ui.profile.ProfileActivity"
+88-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:49:19-61
+89            android:screenOrientation="portrait" />
+89-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:49:62-98
+90        <activity
+90-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:50:9-103
+91            android:name="com.paryavaran.kavalu.ui.settings.SettingsActivity"
+91-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:50:19-63
+92            android:screenOrientation="portrait" />
+92-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:50:64-100
+93        <activity
+93-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:51:9-97
+94            android:name="com.paryavaran.kavalu.ui.about.AboutActivity"
+94-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:51:19-57
+95            android:screenOrientation="portrait" />
+95-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:51:58-94
+96
+97        <provider
+98            android:name="androidx.core.content.FileProvider"
+98-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:54:13-62
+99            android:authorities="com.paryavaran.kavalu.fileprovider"
+99-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:55:13-64
+100            android:exported="false"
+100-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:56:13-37
+101            android:grantUriPermissions="true" >
+101-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:57:13-47
+102            <meta-data
+102-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:58:13-60:54
+103                android:name="android.support.FILE_PROVIDER_PATHS"
+103-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:59:17-67
+104                android:resource="@xml/file_paths" />
+104-->C:\Users\Hp\Downloads\80\80\app\src\main\AndroidManifest.xml:60:17-51
+105        </provider>
+106
+107        <meta-data
+107-->[com.google.maps.android:android-maps-utils:3.8.2] C:\Users\Hp\.gradle\caches\9.0.0\transforms\18d24dc981e46e497c0d7f1ef5442f4d\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:8:9-10:69
+108            android:name="com.google.android.gms.version"
+108-->[com.google.maps.android:android-maps-utils:3.8.2] C:\Users\Hp\.gradle\caches\9.0.0\transforms\18d24dc981e46e497c0d7f1ef5442f4d\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:9:13-58
+109            android:value="@integer/google_play_services_version" /> <!-- Needs to be explicitly declared on P+ -->
+109-->[com.google.maps.android:android-maps-utils:3.8.2] C:\Users\Hp\.gradle\caches\9.0.0\transforms\18d24dc981e46e497c0d7f1ef5442f4d\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:10:13-66
+110        <uses-library
+110-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\f61705d95bea913e2a19839348bb1309\transformed\play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+111            android:name="org.apache.http.legacy"
+111-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\f61705d95bea913e2a19839348bb1309\transformed\play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+112            android:required="false" />
+112-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\f61705d95bea913e2a19839348bb1309\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+113
+114        <activity
+114-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\a2eaf3917427179655734c1e31fd16cb\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+115            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+115-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\a2eaf3917427179655734c1e31fd16cb\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+116            android:exported="false"
+116-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\a2eaf3917427179655734c1e31fd16cb\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+117-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\a2eaf3917427179655734c1e31fd16cb\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+118
+119        <provider
+119-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\6ca6d1128edec331ce1af03843c90184\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+120            android:name="androidx.startup.InitializationProvider"
+120-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\6ca6d1128edec331ce1af03843c90184\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+121            android:authorities="com.paryavaran.kavalu.androidx-startup"
+121-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\6ca6d1128edec331ce1af03843c90184\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+122            android:exported="false" >
+122-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\6ca6d1128edec331ce1af03843c90184\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+123            <meta-data
+123-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\6ca6d1128edec331ce1af03843c90184\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+124                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+124-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\6ca6d1128edec331ce1af03843c90184\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+125                android:value="androidx.startup" />
+125-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\6ca6d1128edec331ce1af03843c90184\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+126            <meta-data
+126-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Hp\.gradle\caches\9.0.0\transforms\03c0492be501a6662aa0ce588a63262b\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+127                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+127-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Hp\.gradle\caches\9.0.0\transforms\03c0492be501a6662aa0ce588a63262b\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+128                android:value="androidx.startup" />
+128-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Hp\.gradle\caches\9.0.0\transforms\03c0492be501a6662aa0ce588a63262b\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+129            <meta-data
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+130                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+131                android:value="androidx.startup" />
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+132        </provider>
+133
+134        <uses-library
+134-->[androidx.window:window:1.0.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\93bf3fde514d4421d82aba8108e7d821\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+135            android:name="androidx.window.extensions"
+135-->[androidx.window:window:1.0.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\93bf3fde514d4421d82aba8108e7d821\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+136            android:required="false" />
+136-->[androidx.window:window:1.0.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\93bf3fde514d4421d82aba8108e7d821\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+137        <uses-library
+137-->[androidx.window:window:1.0.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\93bf3fde514d4421d82aba8108e7d821\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+138            android:name="androidx.window.sidecar"
+138-->[androidx.window:window:1.0.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\93bf3fde514d4421d82aba8108e7d821\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+139            android:required="false" />
+139-->[androidx.window:window:1.0.0] C:\Users\Hp\.gradle\caches\9.0.0\transforms\93bf3fde514d4421d82aba8108e7d821\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+140
+141        <service
+141-->[androidx.room:room-runtime:2.6.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\c7447929a990a4ea0460dc0c85e5593b\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+142            android:name="androidx.room.MultiInstanceInvalidationService"
+142-->[androidx.room:room-runtime:2.6.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\c7447929a990a4ea0460dc0c85e5593b\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+143            android:directBootAware="true"
+143-->[androidx.room:room-runtime:2.6.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\c7447929a990a4ea0460dc0c85e5593b\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+144            android:exported="false" />
+144-->[androidx.room:room-runtime:2.6.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\c7447929a990a4ea0460dc0c85e5593b\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+145
+146        <receiver
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+147            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+148            android:directBootAware="false"
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+149            android:enabled="true"
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+150            android:exported="true"
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+151            android:permission="android.permission.DUMP" >
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+152            <intent-filter>
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+153                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+153-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+153-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+154            </intent-filter>
+155            <intent-filter>
+155-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+156                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+156-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+156-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+157            </intent-filter>
+158            <intent-filter>
+158-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+159                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+159-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+159-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+160            </intent-filter>
+161            <intent-filter>
+161-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+162                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+162-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+162-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Hp\.gradle\caches\9.0.0\transforms\e9829365a191e48ae9e8c9257f6c845c\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+163            </intent-filter>
+164        </receiver>
+165    </application>
+166
+167</manifest>
