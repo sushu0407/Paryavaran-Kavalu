@@ -26,18 +26,22 @@ Tech Stack
 Folder Structure
 
 Paryavaran-Kavalu/
-│
+├── .gradle/
+├── .idea/
+├── .kotlin/
+│   └── errors/
 ├── app/
+├── build/
+│   └── reports/
+│       └── problems/
 ├── gradle/
 │   └── wrapper/
-│
-├── .kotlin/
-├── README.md
-├── build.gradle.kts
-├── settings.gradle.kts
+├── build.gradle
 ├── gradle.properties
 ├── gradlew
-└── gradlew.bat
+├── gradlew.bat
+├── local.properties
+└── settings.gradle
 
  Installation Steps
 1. Clone the repository
